@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Guillermina Senn"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD Candidate in Statistics at Norwegian University of Science and Technology"
   location         : "Trondheim, Norway"
-  employer         : "Norwegian University of Science and Technology"
+  employer         : "NTNU"
   uri              : # URL
   email            : "guillermina.senn@ntnu.no" 
 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : www.linkedin.com/in/guillerminasenn
+  linkedin         : guillerminasenn
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
