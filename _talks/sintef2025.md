@@ -7,3 +7,4 @@ type: "Invited talk"
 slides: '/files/20250526_sintef_wave.pdf'
 url_slides: 'https://guillerminasenn.github.io/files/20250526_sintef_wave.pdf'
 ---
+[Slides]('https://guillerminasenn.github.io/files/20250526_sintef_wave.pdf')
