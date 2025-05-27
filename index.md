@@ -6,5 +6,3 @@ My supervisor is Håkon Tjelmeland and I research computationally efficient MCMC
 
 I'm also collaborating with Andrew Holbrook (UCLA) and Nathan Glatt-Holtz (Indiana University Bloomington) on scalable MCMC methods for BIPs.
 
-🚧 This website is under construction! 🚧
-
