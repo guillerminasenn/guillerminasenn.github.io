@@ -4,9 +4,9 @@ collection: talks
 date: 2025-05-27
 venue: 'SINTEF Industri, Trondheim, Norway'
 type: "Invited talk"
-slides: '/files/20250526_sintef_wave.pdf'
-url_slides: 'https://guillerminasenn.github.io/files/20250526_sintef_wave.pdf'
+slides: "/files/20250526_sintef_wave.pdf"
+url_slides: "/files/20250526_sintef_wave.pdf"
 ---
-[Slides]('/files/20250526_sintef_wave.pdf')
+[Slides]("/files/20250526_sintef_wave.pdf")
 
 testing some more text
