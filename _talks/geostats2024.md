@@ -7,6 +7,3 @@ event: "Geostats 2024"
 url: 'https://geostats2024.com'
 type: "Contributed talk"
 ---
-
-Gave a presentation on a hierarchical Bayesian model with an associated computationally efficient Gibbs sampler to estimate a seismic wavelet from seismic AVO data and well reflectivity.
-
