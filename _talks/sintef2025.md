@@ -6,7 +6,7 @@ venue: "SINTEF Industri, Trondheim, Norway"
 type: "Invited talk"
 slides: "/files/20250526_sintef_wave.pdf"
 ---
-"\n\n"
+"<!--more-->"
 
 This text is inside the talk link. and not outside! is it?
 
