@@ -6,10 +6,4 @@ venue: "SINTEF Industri, Trondheim, Norway"
 type: "Invited talk"
 slides: "/files/20250526_sintef_wave.pdf"
 ---
-"<!--more-->"
-
-This text is inside the talk link. and not outside! is it?
-
-these [Slides_inside]("/files/20250526_sintef_wave.pdf") should be inside too. 
-
-
+<!--more-->
