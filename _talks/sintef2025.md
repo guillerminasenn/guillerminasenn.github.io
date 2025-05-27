@@ -5,8 +5,10 @@ date: 2025-05-27
 venue: 'SINTEF Industri, Trondheim, Norway'
 type: "Invited talk"
 slides: "/files/20250526_sintef_wave.pdf"
-url_slides: "/files/20250526_sintef_wave.pdf"
 ---
-[Slides]("/files/20250526_sintef_wave.pdf")
 
-testing some more text
+This text is inside the talk link. 
+
+these [Slides_inside]("/files/20250526_sintef_wave.pdf") should be inside too. 
+
+
