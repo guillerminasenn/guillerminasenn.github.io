@@ -13,7 +13,7 @@
   [Course page](https://www.ntnu.edu/studies/courses/TMA4300#tab=omEmnet)
 
 - **TMA4115 – Mathematics 3 (Linear Algebra)** (Fall 2025)  
-  [Course page](https://www.ntnu.edu/studies/courses/TMA4115#tab=omEmnet)
+  *with teaching, substitute* [Course page](https://www.ntnu.edu/studies/courses/TMA4115#tab=omEmnet)
 
 - **ISTX1001 – Industrial Statistics** (Fall 2025)  
   [Course page](https://www.ntnu.edu/studies/courses/ISTT1001#tab=omEmnet)
