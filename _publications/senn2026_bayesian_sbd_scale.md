@@ -4,5 +4,5 @@ collection: publications
 category: manuscripts
 date: 2026-01-14
 venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2601.09677'
+paperurl: '[https://arxiv.org/abs/2601.09677](https://arxiv.org/abs/2601.09677)'
 ---
