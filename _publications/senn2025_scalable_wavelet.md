@@ -10,5 +10,3 @@ externalurl: https://onlinelibrary.wiley.com/share/author/QXGPRTZ4FAWCH9HSPPEN?t
 ---
 
 This paper develops scalable Bayesian methods for seismic wavelet estimation.
-
-[GitHub](https://github.com/guillerminasenn/sbbd)
