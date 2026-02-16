@@ -9,3 +9,5 @@ externalurl: '[https://arxiv.org/abs/2601.09677](https://arxiv.org/abs/2601.0967
 build:
   render: never
 ---
+
+[GitHub](https://github.com/guillerminasenn/bsbd)
