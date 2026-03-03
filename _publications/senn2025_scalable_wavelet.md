@@ -6,6 +6,7 @@ layout: publication
 date: 2025-04-23
 venue: 'Geophysical Prospecting'
 paperurl: https://onlinelibrary.wiley.com/share/author/QXGPRTZ4FAWCH9HSPPEN?target=10.1111/1365-2478.70026
+excerpt: "TL;DR: Scalable Bayesian wavelet estimation with uncertainty quantification for large seismic datasets."
 ---
 
 ## TL;DR

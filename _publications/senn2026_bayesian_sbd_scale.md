@@ -6,6 +6,8 @@ layout: publication
 date: 2026-01-14
 venue: 'arXiv'
 paperurl: https://arxiv.org/abs/2601.09677
+github: https://github.com/guillerminasenn/bsbd
+excerpt: "TL;DR: Bayesian approach (model + MCMC algorithms) for semi-blind deconvolution that scales to large datasets."
 ---
 
 ## TL;DR
