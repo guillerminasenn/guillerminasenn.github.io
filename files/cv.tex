@@ -1,0 +1,138 @@
+\documentclass[12pt,a4paper]{moderncv}
+
+%----------------------------------------------------------
+% Style configuration
+%----------------------------------------------------------
+\moderncvstyle{classic} % options: 'casual', 'classic', 'banking', 'oldstyle', 'fancy'
+\moderncvcolor{black}   % monochrome look
+\nopagenumbers{}        % remove page numbers
+
+%----------------------------------------------------------
+% Packages and formatting
+%----------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0.35em, topsep=0.4em, label=-} % smaller, cleaner bullets
+
+% Add some vertical space between sections
+\usepackage{etoolbox}
+\patchcmd{\section}{\par\vspace{2.5ex}}{\par\vspace{3.8ex}}{}{}
+
+% Make name more discrete and serious
+\renewcommand*{\namefont}{\large\bfseries}
+\renewcommand*{\titlefont}{\large\bfseries}
+
+%----------------------------------------------------------
+% Personal Information
+%----------------------------------------------------------
+\name{}{Guillermina Senn}
+\email{guillermina.senn@ntnu.no, senng@iu.edu}
+\homepage{guillerminasenn.github.io}
+% \homepage{https://www.ntnu.edu/employees/guillermina.senn}
+
+%----------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+%----------------------------------------------------------
+\section{Research Interests}
+Computational statistics; scalable Monte Carlo methods; uncertainty quantification.
+
+%----------------------------------------------------------
+\section{Employment}
+\cventry{Feb 2026--Jul 2026}{Visiting Graduate Researcher}{Indiana University}{Bloomington}{USA}{Postdoctoral work on scalable Monte Carlo methods and theory, advised by Nathan Glatt-Holtz.}
+\vspace{0.3cm}
+\cventry{2015--2021}{Several Roles}{Nokia}{Córdoba, Argentina}{}{
+Worked in the deployment of mobile networks in Argentina, Uruguay, and Paraguay, first as an engineer, then as analytics consultant, and finally as data scientist.
+% In my last role, I used statistics and machine learning to aid the customer’s mobile network operation.
+}
+
+%----------------------------------------------------------
+\section{Education}
+\cventry{2022--present}{Ph.D. in Mathematical Sciences}{NTNU}{Trondheim, Norway}{}{
+Dissertation: \textit{Scalable Markov Chain Monte Carlo for Bayesian Inverse Problems with Gaussian Priors}. Advised by Håkon Tjelmeland. Expected June 2026.}
+\vspace{0.3cm}
+\cventry{2018--2021}{M.S. in Applied Statistics}{National University of Córdoba}{Argentina}{}{}
+\vspace{0.3cm}
+\cventry{2009--2016}{Telecommunications Engineering}{National Defense University}{Córdoba, Argentina}{}{}
+
+%----------------------------------------------------------
+\section{Research Visits}
+\cventry{2024--2025}{Visiting Graduate Researcher}{Department of Biostatistics, Fielding School of Public Health, University of California, Los Angeles}{}{}{}
+
+%----------------------------------------------------------
+\section{Publications}
+\cvitem{Published}{
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Senn, G., N. Glatt-Holtz, G. Carigi, A. Holbrook, and H. Tjelmeland, (2026) \textit{Multiproposal Elliptical Slice Sampling}. \textit{arXiv.}
+    \item Senn, G., H. Tjelmeland, N. Glatt-Holtz, M. Walker, and A. Holbrook (2026) \textit{Bayesian Semi-Blind Deconvolution at Scale}. \textit{arXiv.}
+    \item Senn, G., M. Walker, and H. Tjelmeland (2025). \textit{Scalable Bayesian seismic wavelet estimation.} \textit{Geophysical Prospecting.}
+\end{itemize}
+}
+\vspace{0.3cm}
+\cvitem{To appear}{
+\vspace{-0.5cm}
+\begin{itemize}
+\item Carigi, G., N. E. Glatt-Holtz, C. F. Mondaini, and G. Senn (2026). \textit{On the Mixing Properties
+of Some Preconditioned Multiproposal Markov Chain Monte Carlo Algorithms}. 
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Presentations}
+\cvitem{Conferences}{
+\vspace{-0.5cm}
+\begin{itemize}
+    \item 2026. \textit{Multiproposal Elliptical Slice Sampling (invited talk).}  SIAM UQ. Minneapolis, USA.
+  \item 2025. \textit{Scalable Bayesian seismic wavelet estimation.} Lofoten Seminar in Applied Geophysics.
+  \item 2025. \textit{Scalable MCMC for Bayesian blind deconvolution (poster).} BayesComp, Singapore.
+  \item 2024. \textit{Spatial Bayesian seismic wavelet estimation from seismic volumes and well data.} Geostats, Ponta Delgada, Azores.
+\end{itemize}
+}
+\vspace{0.3cm}
+\cvitem{Seminars}{
+\vspace{-0.5cm}
+\begin{itemize}
+  \item 2025. \textit{Scalable Bayesian seismic wavelet estimation (invited talk).} SINTEF Industri, Trondheim.
+  \item 2024. \textit{Bayesian seismic wavelet and subsurface estimation via Gibbs sampling on a cyclic domain (invited talk).} Department of Statistics, Indiana University Bloomington.
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Teaching Experience}
+\cvitem{}{
+\vspace{-0.5cm}
+\begin{itemize}
+  \item \href{https://www.ntnu.edu/studies/courses/TMA4115#tab=omEmnet}{\textbf{TMA4115 Mathematics 3 (Linear Algebra)}} (Fall 2025), NTNU — with teaching, substitute.
+  \item \href{https://www.ntnu.edu/studies/courses/ISTT1001#tab=omEmnet}{\textbf{ISTX1001 Industrial Statistics}} (Fall 2025), NTNU — TA.
+  \item \href{https://www.ntnu.edu/studies/courses/TMA4240#tab=omEmnet}{\textbf{TMA4240 Statistics}} (Fall 2024), NTNU — TA.
+  \item \href{https://www.ntnu.edu/studies/courses/ST1201#tab=omEmnet}{\textbf{ST1201/ST6201 Statistical Methods}} (Fall 2024, Fall 2023, Fall 2022), NTNU — TA with teaching responsibilities.
+  \item \href{https://www.ntnu.edu/studies/courses/TMA4300#tab=omEmnet}{\textbf{TMA4300 Computer Intensive Statistical Methods}} (Spring 2024, Spring 2023), NTNU — TA.
+  \item \href{https://www.ntnu.edu/studies/courses/TMA4255#tab=omEmnet}{\textbf{TMA4255 Applied Statistics}} (Spring 2022), NTNU — TA and instructor for exercise sessions.
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Service}
+\cvitem{2023--2025}{"Working Group in Statistical Sciences" seminar co-organizer, Department of Mathematical Sciences, NTNU, Trondheim.}
+
+%----------------------------------------------------------
+\section{Other Skills}
+\cvitem{Languages}{English, Spanish, Norwegian, German.}
+\cvitem{Computing}{Python, R, SQL, bash scripting, Linux, HPC, Git.}
+
+% %----------------------------------------------------------
+% \newpage
+% \section{References}
+% \cvitem{}{
+% \begin{itemize}
+%     \item \textbf{Håkon Tjelmeland} \href{mailto:haakon.tjelmeland@ntnu.no}{haakon.tjelmeland@ntnu.no} (PhD advisor).
+%     \item \textbf{Nathan Glatt-Holtz} \href{mailto:negh@iu.edu}{negh@iu.edu} (Postdoc advisor).
+%     \item \textbf{Andrew Holbrook} \href{mailto:aholbroo@g.ucla.edu}{aholbroo@g.ucla.edu} (Hosted at UCLA).
+%     \item \textbf{Andrew Holbrook} \href{mailto:aholbroo@g.ucla.edu}{aholbroo@g.ucla.edu} (Hosted at UCLA).
+% \end{itemize}
+}
+
+\end{document}
