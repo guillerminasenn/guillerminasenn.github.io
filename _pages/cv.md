@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download short CV (PDF)](/files/cv/short/cv_short.pdf){:target="_blank" rel="noopener"}
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
