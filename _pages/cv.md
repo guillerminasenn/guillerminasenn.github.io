@@ -10,5 +10,3 @@ redirect_from:
 {% include base_path %}
 
 [Download short CV (PDF)](/files/cv/short/cv_short.pdf){:target="_blank" rel="noopener"}
-
-# write CV here if necessary.
