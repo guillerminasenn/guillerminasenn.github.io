@@ -1,0 +1,176 @@
+\documentclass[12pt,a4paper]{moderncv}
+
+%----------------------------------------------------------
+% Style configuration
+%----------------------------------------------------------
+\moderncvstyle{classic} % options: 'casual', 'classic', 'banking', 'oldstyle', 'fancy'
+\moderncvcolor{black}   % monochrome look
+\nopagenumbers{}        % remove page numbers
+
+% If a thin rule is still desired under sections, keep your rule:
+% \providecommand*{\sectionstylerule}{}
+% \newcommand*{\sectionruleheight}{0.1pt} % set to 0pt to remove the line
+% \renewcommand*{\sectionstylerule}{\par\vspace{0ex}\hrule height \sectionruleheight\relax}
+% (you already defined \sectionstylerule)
+
+% Remove left bars by redefining section style
+\makeatletter
+\renewcommand*{\sectionstyle}[1]{%
+  \sectionfont\textcolor{color1}{#1}%
+}
+\makeatother
+
+
+%----------------------------------------------------------
+% Packages and formatting
+%----------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.4em, itemsep=0.1em, topsep=1.5em, label=\textbullet} % round bullets
+\setlist[itemize,2]{leftmargin=2.1em, itemsep=0.1em, topsep=0.6em, label=\textbullet}
+
+% Add some vertical space between sections
+\usepackage{etoolbox}
+\patchcmd{\section}{\par\vspace{2.5ex}}{\par\vspace{3.8ex}}{}{}
+
+% Make name more discrete and serious
+\renewcommand*{\familydefault}{\sfdefault}
+\renewcommand*{\namefont}{\Large\bfseries}
+\renewcommand*{\titlefont}{\Large}
+\renewcommand*{\sectionfont}{\large\bfseries}
+\renewcommand*{\subsectionfont}{\normalsize\bfseries}
+
+
+%----------------------------------------------------------
+% Personal Information
+%----------------------------------------------------------
+\name{}{Guillermina Senn}
+\email{senn.guillermina@gmail.com}
+\homepage{guillerminasenn.github.io}
+% \homepage{https://www.ntnu.edu/employees/guillermina.senn}
+
+%----------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+%----------------------------------------------------------
+\textbf{Research interests:} 
+Computational statistics; scalable Monte Carlo methods; uncertainty quantification.
+% \cvitem{Research interests}{Computational statistics; scalable Monte Carlo methods; uncertainty quantification.}
+
+%----------------------------------------------------------
+\section{Employment}
+\cventry{Feb 2026--}{\normalfont Visiting Graduate Researcher}{\normalfont Department of Statistics}{\normalfont Indiana University Bloomington}{\normalfont USA}
+{Postdoctoral work on scalable Monte Carlo methods and theory, advised by Nathan Glatt-Holtz.}
+\vspace{0.3cm}
+\cventry{2015--2021}{\normalfont Several roles}{\normalfont Nokia}{\normalfont Córdoba, Argentina}{}{
+\vspace{0.01em}
+\begin{itemize}
+  \item Data Scientist (2020--2021): Applied statistics and ML to operational problems in mobile networks within an international team. Example projects: Customer complaint prediction; human mobility indicator development based on mobile data.
+ \item Analytics Consultant (2018--2020): Was part of a team designing and implementing a custom analytics-based mobile network monitoring solution. My tasks involved data analysis of large datasets, client reporting, and system monitoring/troubleshooting.
+ \item Engineer (2015--2018): Performed software and hardware maintenance on mobile network equipment.
+  % \item Field Manager (2015--2018): Managed ~10 field teams deploying 2G/3G/4G base stations.
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Education}
+\cventry{2022--present}{\normalfont Ph.D. in Mathematical Sciences}{\normalfont NTNU}{\normalfont Trondheim, Norway}{}{
+Advised by Håkon Tjelmeland. Thesis defense in August 2026.
+\newline
+Dissertation: \textit{Scalable Markov Chain Monte Carlo for Bayesian Inverse Problems with Gaussian Priors}. 
+}
+\vspace{0.3cm}
+\cventry{2018--2021}{\normalfont M.S. in Applied Statistics}{\normalfont National University of Córdoba}{\normalfont Argentina}{}{}
+% Advised by Monica Balzarini.
+% \newline 
+% Thesis title: \textit{Multicollinearity and Overfitting in Hierarchical Bayesian Models for Spatial Data. An application to Landscape-Scale Ecosystem Services Modeling.}
+\vspace{0.3cm}
+\cventry{2009--2016}{\normalfont Telecommunications Engineering}{\normalfont National Defense University}{\normalfont Córdoba, Argentina}{}{}
+
+%----------------------------------------------------------
+\section{Research Visits}
+\cventry{2024--2025}{\normalfont Visiting Graduate Researcher}
+{\normalfont Department of Biostatistics, University of California, Los Angeles}{}{}{
+  Worked on scalable Monte Carlo methods for high-dimensional inverse problems.
+}
+\cventry{Dec 2024}{\normalfont Visiting Graduate Researcher}
+{\normalfont Department of Statistics, Indiana University Bloomington}{}{}{}
+\cventry{Jan 2024}{\normalfont Visitor}{\normalfont bp's Research Center}{\normalfont London}{}{}
+
+\newpage
+%----------------------------------------------------------
+\section{Publications}
+\cvitem{Published}{
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Senn, G., N. Glatt-Holtz, G. Carigi, A. Holbrook, and H. Tjelmeland, (2026) \textit{Multiproposal Elliptical Slice Sampling}. Submitted to \textit{UAI 2026}.
+    \item Senn, G., H. Tjelmeland, N. Glatt-Holtz, M. Walker, and A. Holbrook (2026) \textit{Bayesian Semi-Blind Deconvolution at Scale}. \textit{arXiv.}
+    \item Senn, G., M. Walker, and H. Tjelmeland (2025). \textit{Scalable Bayesian seismic wavelet estimation.} \textit{Geophysical Prospecting.}
+\end{itemize}
+}
+\vspace{0.3cm}
+\cvitem{In preparation}{
+\vspace{-0.5cm}
+\begin{itemize}
+\item Carigi, G., N. E. Glatt-Holtz, C. F. Mondaini, and G. Senn (2026). \textit{On the Mixing Properties
+of Some Preconditioned Multiproposal Markov Chain Monte Carlo Algorithms}. 
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Presentations}
+\cvitem{}{\scriptsize \textsf{I}=Invited talk; \textsf{C}=contributed talk; \textsf{P}=poster}
+\cvitem{Conferences}{
+\vspace{-0.5cm}
+\begin{itemize}
+    \item 2026. \textit{Multiproposal Elliptical Slice Sampling.} SIAM UQ. Minneapolis, USA. {\scriptsize (\textsf{I})}
+  \item 2025. \textit{Scalable Bayesian seismic wavelet estimation.} Lofoten Seminar in Applied Geophysics. {\scriptsize (\textsf{C})}
+  \item 2025. \textit{Scalable MCMC for Bayesian blind deconvolution.} BayesComp, Singapore. {\scriptsize (\textsf{P})}
+  \item 2024. \textit{Spatial Bayesian seismic wavelet estimation from seismic volumes and well data.} Geostats, Ponta Delgada, Azores. {\scriptsize (\textsf{C})}
+\end{itemize}
+}
+\vspace{0.3cm}
+\cvitem{Seminars}{
+\vspace{-0.5cm}
+\begin{itemize}
+  \item 2025. \textit{Scalable Bayesian seismic wavelet estimation.} SINTEF Industri, Trondheim. {\scriptsize (\textsf{I})}
+  \item 2024. \textit{Bayesian seismic wavelet and subsurface estimation via Gibbs sampling on a cyclic domain.} Department of Statistics, Indiana University Bloomington. {\scriptsize (\textsf{I})}
+\end{itemize}
+}
+
+%----------------------------------------------------------
+\section{Teaching Experience}
+\begin{itemize}
+  \item Fall 2025. \href{https://www.ntnu.edu/studies/courses/TMA4115\#tab=omEmnet}{TMA4115 Mathematics 3 (Linear Algebra)}. NTNU. Substitute instructor.
+  \item Fall 2025. \href{https://www.ntnu.edu/studies/courses/ISTT1001\#tab=omEmnet}{ISTX1001 Industrial Statistics}. NTNU. TA.
+  \item Fall 2024. \href{https://www.ntnu.edu/studies/courses/TMA4240\#tab=omEmnet}{TMA4240 Statistics}. NTNU. TA.
+  \item Fall 2024, Fall 2023, Fall 2022. \href{https://www.ntnu.edu/studies/courses/ST1201\#tab=omEmnet}{ST1201/ST6201 Statistical Methods}. NTNU. TA with teaching responsibilities.
+  \item Spring 2024, Spring 2023. \href{https://www.ntnu.edu/studies/courses/TMA4300\#tab=omEmnet}{TMA4300 Computer Intensive Statistical Methods}. NTNU. TA.
+  \item Spring 2022. \href{https://www.ntnu.edu/studies/courses/TMA4255\#tab=omEmnet}{TMA4255 Applied Statistics}. NTNU. TA and exercise sessions instructor.
+\end{itemize}
+
+%----------------------------------------------------------
+\section{Service}
+\cventry{2023--2025}{\normalfont Seminar co-organizer}{\normalfont Department of Mathematical Sciences, NTNU}{\normalfont Trondheim}{}{}
+
+%----------------------------------------------------------
+\section{Other Skills}
+\cvitem{Languages}{English, Spanish, Norwegian, German.}
+\vspace{0.3em}
+\cvitem{Computing}{Python, R, SQL, bash scripting, Linux, HPC, Git.}
+
+% %----------------------------------------------------------
+% \newpage
+% \section{References}
+% \cvitem{}{
+% \begin{itemize}
+%     \item \textbf{Håkon Tjelmeland} \href{mailto:haakon.tjelmeland@ntnu.no}{haakon.tjelmeland@ntnu.no} (PhD advisor).
+%     \item \textbf{Nathan Glatt-Holtz} \href{mailto:negh@iu.edu}{negh@iu.edu} (Postdoc advisor).
+%     \item \textbf{Andrew Holbrook} \href{mailto:aholbroo@g.ucla.edu}{aholbroo@g.ucla.edu} (Hosted at UCLA).
+%     \item \textbf{Andrew Holbrook} \href{mailto:aholbroo@g.ucla.edu}{aholbroo@g.ucla.edu} (Hosted at UCLA).
+% \end{itemize}
+% }
+
+\end{document}
