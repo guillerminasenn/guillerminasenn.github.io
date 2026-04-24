@@ -1059,13 +1059,12 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ts1-lmss12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
